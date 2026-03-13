@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Rincón</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#fffaf3;
+color:#333;
+}
+
+header{
+background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+header h1{
+font-size:55px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.boton{
+background:#e63946;
+color:white;
+padding:14px 28px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+nav{
+background:#e63946;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+font-size:17px;
+}
+
+section{
+padding:70px 20px;
+text-align:center;
+}
+
+h2{
+font-size:36px;
+margin-bottom:40px;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+max-width:1000px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-bottom:10px;
+color:#e63946;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+max-width:1000px;
+margin:auto;
+}
+
+.galeria img{
+width:100%;
+border-radius:12px;
+}
+
+footer{
+background:#e63946;
+color:white;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>El Rincón</h1>
+<p>Comida deliciosa en un ambiente familiar</p>
+
+<a class="boton" href="https://wa.me/5210000000000">Pedir por WhatsApp</a>
+
+</header>
+
+<nav>
+
+<a href="#menu">Menú</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+<section id="menu">
+
+<h2>Nuestro Menú</h2>
+
+<div class="menu">
+
+<div class="card">
+<h3>Tacos</h3>
+<p>Pastor, bistec, pollo</p>
+<p><b>$25 c/u</b></p>
+</div>
+
+<div class="card">
+<h3>Hamburguesas</h3>
+<p>Clásica, doble carne, especial</p>
+<p><b>Desde $80</b></p>
+</div>
+
+<div class="card">
+<h3>Quesadillas</h3>
+<p>Queso, pollo o champiñones</p>
+<p><b>$40</b></p>
+</div>
+
+<div class="card">
+<h3>Bebidas</h3>
+<p>Refrescos, aguas frescas</p>
+<p><b>$25</b></p>
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+<h2>Galería</h2>
+
+<div class="galeria">
+
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947">
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>Contacto</h2>
+
+<p>📍 Puebla, México</p>
+<p>📞 Pedidos por WhatsApp</p>
+
+<a class="boton" href="https://wa.me/5210000000000">Pedir ahora</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 El Rincón | Restaurante</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5210000000000">💬</a>
+
+</body>
+</html>
